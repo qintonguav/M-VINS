@@ -44,14 +44,5 @@ We put our detailed results in (/support_material/dataset_result/). [MH_01](http
 [V2_03](https://github.com/qintony/M-VINS/blob/master/support_material/dataset_result/V2_03/result.png)
 We run these dataset with WINDOW_SIZE 15, MAX_SOLVER_TIME 60ms, MAX_FEATURE_COUNT 200 in real time. If you carefully set the parameters and give more computational resource, you will get better performance.
 
-##4. AR Demo
-1. Download the [bag file](https://www.dropbox.com/s/ap6s6w22rvg1c04/ar_box.bag?dl=0), witch is collected form HKUST Robotic Insititue.
 
-2. Modify path in VINS/ar_demo/launch/online_bag.launch. Change **dataset_bag_path** to the your downloaded dataset folder.
-
-3. Run the following command
-```
-	roslaunch ar_demo online_bag.launch
-```
-	We put one virtual boxed in front of your view. 
 
